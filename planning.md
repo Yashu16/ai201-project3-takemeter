@@ -20,7 +20,26 @@ As both films progress, both characters are given multiple off-ramps to redeem t
 
 The main thing is that weakness and goodness are not one in the same. A shy awkward guy might not have the same capacity to do actions of evil as a cool confident guy, but if given power they can be an absolute nightmare. As a surge of power, after having none for so long, can cause them to be especially cruel and evil, since they never had to confront the evil of their desires. Because at the end of the day, society often believes a lack of evil actions is the same as goodness. When in reality, one may simply not have the power to be evil.
 
-*Example 2*: Title - 
+*Example 2*: Title - The loss of hapticness in modern cinema
+
+Modern cinema irritates me deeply. It’s not like we are not seeing great cinema still, of course we are, and many filmmakers understand how to use the language of modern cinema perfectly but the surplus of digital aesthetics and technological advancements has produced a landscape of films that have more in common with video than film. The loss of textures, practicality and fetishisation of pristine image quality has produced a landscape of quickly produced content.
+
+A bad film in the past still involved skill and effort- decision had to be made on set, everything was heavier, more expensive and not as flexible as nowadays. Effects were done in camera, there wasn’t this massive sentiment to fix it in post.
+
+There are a few filmmakers that know how to use digital technology perfectly- Miller, Cameron, Mann, Iñárritu, Lav Diaz and it’s not the technology itself but the over-reliance on not committing to decisions and wanting everything to be decided later.
+
+The great modern filmmakers understand this and that’s why they prefer shooting analog, it gives the image a certain tactility, hapticness, roughness. This has been widely spread by filmmakers such as Spielberg, Nolan, Tarantino, Scorsese, Baker, Safdie Brothers, Chazelle, Eggers. These filmmakers are not only successful because they make great movies, but because they put a lot on emphasis on the image itself. Each frame of these directors has a quality that feels timeless.
+
+I can only say one has to look no further and compare (if we want to stick in the realm of blockbuster cinema) the Raimi Spider Man movies with the recent Spider Man by Tom Holland which looks incredibly fake.
+
+Or compare modern digital Ridley Scott to analog pre 2010 Scott. A film like 1492 which is not a great film, would never ever look this good nowadays in the hands of modern Scott who basically lost any interest in creating impressive images. I mean, Gladiator 2 looked so much worse than the first one in every conceivable way, and his DP explained why. Digital made him lazy. Too many cameras, too much shooting simultaneously, too many options.
+
+An arthouse example would be Almodovar - his newest output looks like a commercial compared to 10-20 years ago. I was baffled at images of The Room Next Door.
+
+It’s hard to find an example of filmmakers who improved by switching to digital cinematography. It’s very hard for me to find any examples. Lucas and Rodriguez who embraced digital, simultaneously sacrificed their craft for technology. Their pre-digital movies look so much more cinematic and beautiful.
+
+I know that there is nothing to change as new filmmakers will keep embracing the efficiency and freedom of digital technology- but speaking from
+the aesthetic beauty and impact of a an image, I hope more filmmakers will see analog film as the way to go.
 
 **discussion**: The post lands on an open question or thinks out loud without a conclusion. The community is being used as a sounding board. A post with an opinion that ends in a genuine question still counts as discussion.
 
