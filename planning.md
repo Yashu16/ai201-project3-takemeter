@@ -86,6 +86,7 @@ The acting was largely good. I like a lot of the camera work. But in its entiret
 - Exhaustive: based on a sample of 35 posts, these three labels cover approximately 95% of r/TrueFilm posts without a catch-all bucket
 - Grounded in community norms: these reflect how people in r/TrueFilm actually participate — arguing, asking, and reacting
 
+**Hard Edge cases**
 
 *Example showing Ambiguity*: Title - Nolan’s recent films all seem to be converging on the same visual style
 Nolan’s recent films all seem to be converging on the same visual style
@@ -110,3 +111,31 @@ I still admire the craftsmanship in Nolan’s films, but visually, his recent wo
 
 **Why does this example sit at a boundary?**
 I have highlighted a sentence in the above example which is a question, which makes it seem like the author is inviting for a discussion. But, it is rhetorical. The author's whole point of the post is to take a stand in their opinion with evidence that can back up their argument. They have made solid comparisons with other director which supports their point. 
+
+
+**Data Collection Plan**
+All of my examples will be collected from r/TrueFilm subreddit - mainly the posts made by different people. My plan is to atleast be able to collect 70 per each label(210 in total), which can turn out to be difficult. If a label is underrepresented even after 200 examples, then I will ask an LLM to generate texts similar to that subreddit style for the required label by giving it my design decisions. I will also mention this in this markdown file incase I do that.  
+
+**Evaluation Metrics**
+I will start with overall Accuracy to get general idea on how well model is doing but I know this alone won't be sufficient because the data can have class imbalance. 
+Next, I will choose F1-score as a balance between precision and recall, since we require both of them to be higher in this case. 
+Precision deals with, "out of all analysis labels the model has assigned, how many were actually correct?"
+Whereas Recall deals with, "out of all existing analysis labels, how many did the model get correct?"
+
+We can't lose any of those two here, so we choose F1 score which is Harmonic mean of those two. 
+
+Next, I will use Confusion Matrix that will help us see where the model is getting confused, between which labels. 
+
+**Definition Of Success**
+- Accuracy: Since this is a 3-label problem, with discussion posts showing up more frequent than not based on my observation, 65-70% is the minimum threshold to even consider the model. 80% would be genuinely good but we won't depend on accuracy at that point. 
+- Per-class F1: Here, we want each label's F1 score to be above 0.65. Having higher F1 for one label and lower for another means our model is biased towards majority label class. 
+- Confusion matrix bar: Most acceptable confusion is *analysis* <-> *discussion* since these are genuinely hard to separate for us humans too. Least acceptable confusion is *reaction* <-> *analysis* because it's easier to distinguish them since reaction is purely emotional and doesn't require any standing. 
+
+So, if a model can reach above standards, I would consider deploying it for a real community. 
+
+**AI tool Plan**
+- Label Stress-Testing: Claude will be used to stress-test the label taxonomy before data collection begins. The full label definitions and decision rules will be provided to Claude, which will then be asked to generate 5-10 posts that sit at the boundary between two labels — specifically analysis vs discussion and analysis vs reaction, as these are the most likely problem boundaries. If any generated posts cannot be cleanly classified using the existing decision rules, the definitions will be tightened before annotation begins.
+
+- Annotation: All 200+ examples will be labeled manually without AI pre-labeling. This ensures full familiarity with the data and avoids introducing systematic labeling bias from an LLM. Every labeling decision will be made by the annotator alone, using the definitions and decision rules documented in this file.
+
+- Failure Analysis: After evaluation, the full list of wrong predictions from the test set will be given to Claude along with the label definitions and decision rules. Claude will be asked to identify patterns in the errors — for example, whether mistakes are clustered around a specific label boundary, or whether certain post structures consistently confuse the model. Any patterns Claude identifies will be manually verified by reviewing the misclassified examples directly before being included in the evaluation report.
