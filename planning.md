@@ -75,7 +75,7 @@ The acting was largely good. I like a lot of the camera work. But in its entiret
 
 **Decision rules for ambiguous cases**:
 - Analysis vs reaction: Remove all "I felt / I watched / I was" sentences. If the argument still stands → analysis. If it collapses without the personal framing → reaction.
-- Analysis vs discussion: Does the post have a defensible thesis or is the opinion just a launching pad for a question? If it lands on a conclusion → analysis. If it lands on an open question → discussion.
+- Analysis vs discussion: Does the post have a defensible thesis or is the opinion just a launching pad for a question? If it lands on a conclusion → analysis. If it lands on an open question → discussion. Does the post need the community to respond to feel complete, or does it stand on its own even if nobody replies? If it sands on its own even without anyone answering their question, it's analysis. Otherwise, it's discussion. 
 - Reaction vs discussion: A reaction post has no question — it's purely processing an experience. If the post ends by asking the community something → discussion.
 - Rhetorical questions: A rhetorical question mid-post doesn't make it discussion. What matters is whether the post as a whole lands on a conclusion or genuinely needs the community to respond.
 - The grammatical subject test: If the subject of most sentences is "I" → lean reaction. If the subject is "the film / the director / society" → lean analysis or discussion.
