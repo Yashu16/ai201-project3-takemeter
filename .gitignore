@@ -2,4 +2,4 @@
 .venv/
 
 # data
-truefilm_posts.csv/
+*.csv
