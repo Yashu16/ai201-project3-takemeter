@@ -114,7 +114,7 @@ I have highlighted a sentence in the above example which is a question, which ma
 
 
 **Data Collection Plan**
-All of my examples will be collected from r/TrueFilm subreddit - mainly the posts made by different people. My plan is to atleast be able to collect 70 per each label(210 in total), which can turn out to be difficult. If a label is underrepresented even after 200 examples, then I will ask an LLM to generate texts similar to that subreddit style for the required label by giving it my design decisions. I will also mention this in this markdown file incase I do that.  
+All of my examples will be collected from r/TrueFilm subreddit - mainly the posts made by different people. My plan is to atleast be able to collect 70 per each label(210 in total), which can turn out to be difficult. If a label is underrepresented even after 200 examples, then I will go to a different source like letterboxd or imdb and find posts related to that label, and I will mention about that data source here in planning file if I do that. 
 
 **Evaluation Metrics**
 I will start with overall Accuracy to get general idea on how well model is doing but I know this alone won't be sufficient because the data can have class imbalance. 
