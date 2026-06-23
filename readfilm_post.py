@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("truefilm_posts.csv")
+df = pd.read_csv("truefilm_posts.csv", encoding="latin-1")
 
 # handle both empty string and NaN
 df['label'] = df['label'].fillna("")
@@ -8,16 +8,16 @@ if 'flag' not in df.columns:
     df['flag'] = ""
 df['flag'] = df['flag'].fillna("")
 
-# find where to start - first unlabeled row
-start_index = df[df['label'] == ""].index
-if len(start_index) == 0:
+# find where to start - last unlabeled row, iterate backwards
+unlabeled = df[df['label'] == ""].index
+if len(unlabeled) == 0:
     print("All posts labeled!")
     exit()
 
-start = start_index[0]
-print(f"Resuming from post {start + 1}")
+start = unlabeled[-1]
+print(f"Resuming from post {start + 1} (going backwards)")
 
-for i in df.index[start:]:
+for i in df.index[start::-1]:
     if df.at[i, 'label'] != "":
         continue
 

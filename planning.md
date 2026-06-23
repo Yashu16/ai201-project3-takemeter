@@ -128,7 +128,7 @@ Next, I will use Confusion Matrix that will help us see where the model is getti
 
 **Definition Of Success**
 - Accuracy: Since this is a 3-label problem, with discussion posts showing up more frequent than not based on my observation, 65-70% is the minimum threshold to even consider the model. 80% would be genuinely good but we won't depend on accuracy at that point. 
-- Per-class F1: Here, we want each label's F1 score to be above 0.65. Having higher F1 for one label and lower for another means our model is biased towards majority label class. 
+- Per-class F1: Here, we want each label's F1 score to be above 0.70. Having higher F1 for one label and lower for another means our model is biased towards majority label class. 
 - Confusion matrix bar: Most acceptable confusion is *analysis* <-> *discussion* since these are genuinely hard to separate for us humans too. Least acceptable confusion is *reaction* <-> *analysis* because it's easier to distinguish them since reaction is purely emotional and doesn't require any standing. 
 
 So, if a model can reach above standards, I would consider deploying it for a real community. 
