@@ -1,5 +1,2 @@
 # env
 .venv/
-
-# data
-*.csv
