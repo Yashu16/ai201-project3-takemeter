@@ -1,4 +1,4 @@
-Demo link: [Watch the demo](Project_3_Takemeter_Demo.mp4)
+Demo link: [Watch the demo on Google Drive](https://drive.google.com/file/d/1c97v5THQpb_xCA5vPYZ_TJAI6uj2bMLq/view?usp=sharing)
 
 **Community: r/TrueFilm**
 Why this community: A subreddit dedicated to serious film discourse, producing a natural range of post types — from rigorous thematic analysis to personal viewing reactions to open community discussions. The variance in discourse quality makes it well-suited for a text classifier.
